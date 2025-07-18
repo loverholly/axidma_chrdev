@@ -1,0 +1,5 @@
+        axidma_chrdev: axidma_chrdev@0 {
+                 compatible = "axidma-chrdev-1.0";
+                 dmas = <&axi_dma_0 0>;
+                 dma-names = "axidma0";
+        };
